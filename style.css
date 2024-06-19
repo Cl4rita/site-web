@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient( to bottom right, rgb(172, 82, 167), rgb(103, 14, 119), rgba(20, 20, 20, 0.644));
+    color:  rgb(255, 215, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+}
+.box {
+    width: 75%;
+    height: auto;
+    border-radius: 40px;
+    padding: 40px 40px;
+    background: rgba(255, 255, 255, 0.21);
+    box-shadow: 0 4px 30px rgba(59, 100, 21, 0.1);
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 4px 10px rgba(158, 25, 25, 0.25);
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: rgb(197, 92, 197);
+    box-shadow: rgb(255, 220, 255) 6px 10px 16px;
+}
+h1, h2, span{    
+    font-weight: bold;
+    color:  rgb(255, 220, 255);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.box2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button, input{
+    background-color: rgb(255, 220, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    border-radius: 12px;
+    height: 30px;
+    padding-left: 6px;
+    border-radius: 25px;
+}
+b{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+button:hover{
+    background-color: pink;
+    transition: 1s;
+    background: transparent;
+    box-shadow:  0 0 20px 5px white;
+}
+button::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -o-linear-gradient(120deg, transparent, #00fffc, transparent);
+    transform: translateX(-100%);
+    transition: 0.6s;
+    position: absolute;
+}
+img{
+    width: 200px;
+    align-items: center;
+    transition: 1s;
+    background-color: rgb(62, 57, 65);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-family: Georgia;
+    backdrop-filter: blur(25px);
+    box-shadow: rgb(255, 220, 255) 0px 4px 10px;
+    text-align: justify;
+    border-radius: 40px;
+    padding: 40px;
+    margin: 0px auto;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(255, 220, 255);
+    border-image: initial;
+    
+}
+img:hover{
+    width: 400px;
+    transition: 1.5s;
+}
